@@ -1,10 +1,10 @@
 # tgmediasaver
 
-**tgmediasaver** is a Python script for a Telegram media saver bot. It utilizes the Telethon library to save media files shared in Telegram groups and albums.
+**tgmediasaver** is a Python script for a Telegram media saver bot. It utilizes the Telethon library to save media files shared in Telegram groups and private chats.
 
 ## Features
 
-- Automatically saves photos and documents shared in groups and albums.
+- Automatically saves photos, videos, video notes, and voice messages shared in groups and private.
 - Extracts relevant information from the media, such as media type and user ID.
 - For albums, forwards the entire album to a specified entity (channel or chat) and adds a tag with the album type and user ID.
 - For individual media files, forwards them to a specified entity and adds a tag with the media type and user ID.
